@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		E56550F31CE0821000CE63B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E56550F21CE0821000CE63B3 /* main.m */; };
 		E56550F61CE0821000CE63B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E56550F51CE0821000CE63B3 /* AppDelegate.m */; };
-		E56550F91CE0821000CE63B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E56550F81CE0821000CE63B3 /* ViewController.m */; };
-		E56550FC1CE0821000CE63B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E56550FA1CE0821000CE63B3 /* Main.storyboard */; };
 		E56550FE1CE0821000CE63B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E56550FD1CE0821000CE63B3 /* Assets.xcassets */; };
 		E56551011CE0821000CE63B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E56550FF1CE0821000CE63B3 /* LaunchScreen.storyboard */; };
+		E565510B1CE0822E00CE63B3 /* DHDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E565510A1CE0822E00CE63B3 /* DHDrawerViewController.m */; };
+		E565510E1CE0823B00CE63B3 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E565510D1CE0823B00CE63B3 /* LeftViewController.m */; };
+		E56551121CE0834100CE63B3 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E56551101CE0834100CE63B3 /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +21,15 @@
 		E56550F21CE0821000CE63B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E56550F41CE0821000CE63B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E56550F51CE0821000CE63B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E56550F71CE0821000CE63B3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E56550F81CE0821000CE63B3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E56550FB1CE0821000CE63B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E56550FD1CE0821000CE63B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E56551001CE0821000CE63B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E56551021CE0821000CE63B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E56551091CE0822E00CE63B3 /* DHDrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHDrawerViewController.h; sourceTree = "<group>"; };
+		E565510A1CE0822E00CE63B3 /* DHDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHDrawerViewController.m; sourceTree = "<group>"; };
+		E565510C1CE0823B00CE63B3 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		E565510D1CE0823B00CE63B3 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		E565510F1CE0834100CE63B3 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		E56551101CE0834100CE63B3 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 		E56550F01CE0821000CE63B3 /* DHDrawerViewController */ = {
 			isa = PBXGroup;
 			children = (
+				E56551081CE0822E00CE63B3 /* DHDrawerViewController */,
 				E56550F41CE0821000CE63B3 /* AppDelegate.h */,
 				E56550F51CE0821000CE63B3 /* AppDelegate.m */,
-				E56550F71CE0821000CE63B3 /* ViewController.h */,
-				E56550F81CE0821000CE63B3 /* ViewController.m */,
-				E56550FA1CE0821000CE63B3 /* Main.storyboard */,
+				E565510F1CE0834100CE63B3 /* MainViewController.h */,
+				E56551101CE0834100CE63B3 /* MainViewController.m */,
+				E565510C1CE0823B00CE63B3 /* LeftViewController.h */,
+				E565510D1CE0823B00CE63B3 /* LeftViewController.m */,
 				E56550FD1CE0821000CE63B3 /* Assets.xcassets */,
 				E56550FF1CE0821000CE63B3 /* LaunchScreen.storyboard */,
 				E56551021CE0821000CE63B3 /* Info.plist */,
@@ -77,6 +83,15 @@
 				E56550F21CE0821000CE63B3 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E56551081CE0822E00CE63B3 /* DHDrawerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E56551091CE0822E00CE63B3 /* DHDrawerViewController.h */,
+				E565510A1CE0822E00CE63B3 /* DHDrawerViewController.m */,
+			);
+			path = DHDrawerViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +153,6 @@
 			files = (
 				E56551011CE0821000CE63B3 /* LaunchScreen.storyboard in Resources */,
 				E56550FE1CE0821000CE63B3 /* Assets.xcassets in Resources */,
-				E56550FC1CE0821000CE63B3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,23 +163,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E56550F91CE0821000CE63B3 /* ViewController.m in Sources */,
+				E56551121CE0834100CE63B3 /* MainViewController.m in Sources */,
+				E565510E1CE0823B00CE63B3 /* LeftViewController.m in Sources */,
 				E56550F61CE0821000CE63B3 /* AppDelegate.m in Sources */,
 				E56550F31CE0821000CE63B3 /* main.m in Sources */,
+				E565510B1CE0822E00CE63B3 /* DHDrawerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E56550FA1CE0821000CE63B3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E56550FB1CE0821000CE63B3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E56550FF1CE0821000CE63B3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

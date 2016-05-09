@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LeftViewController.h
 //  DHDrawerViewController
 //
 //  Created by DreamHack on 16/5/9.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface LeftViewController : UIViewController
 
 @end
-
